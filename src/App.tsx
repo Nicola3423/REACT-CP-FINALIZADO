@@ -11,7 +11,7 @@ function App() {
   return (
     // Componente Router envolve tudo
     <Router>
-      {/* Div principal com tailwind */}
+      {/* Div principal com tailwin */}
       <div className="container mx-auto">
         {/* Cabeçalho da aplicação */}
         <header className="py-4 text-center">
@@ -41,7 +41,7 @@ function App() {
         
         {/* Rodapé com css  */}
         <footer className="text-center py-4">
-          <p>Nicola Monte Cravo Garofalo, RM 553991, 1TDSZ, Link do repositorio: https://github.com/Nicola3423/REACT-AULA-CP</p>
+          <p>Nicola Monte Cravo Garofalo, RM 553991, 1TDSZ, Link do repositorio: https://github.com/Nicola3423/REACT-CP-FINALIZADO</p>
         </footer>
       </div>
     </Router>
