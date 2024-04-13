@@ -1,0 +1,42 @@
+footer {
+  /* Fixa o rodapé na parte inferior da janela */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Cor de fundo */
+  background-color: #2D2D2D;
+  /* Cor do texto */
+  color: white;
+  /* Espaçamento interno */
+  padding: 20px 0;
+  /* Alinhamento do texto */
+  text-align: center;
+}
+
+.container {
+  /* Define a largura máxima do contêiner */
+  max-width: 960px;
+  /* Centraliza horizontalmente o contêiner na página */
+  margin: 0 auto;
+  /* Espaçamento interno */
+  padding: 0 15px;
+}
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+  /* Reduz o espaçamento interno do contêiner */
+  .container {
+    padding: 0 10px;
+  }
+  
+  /* Altera a direção da lista de navegação para coluna */
+  nav ul {
+    flex-direction: column;
+  }
+  
+  /* Adiciona margem inferior aos itens da lista de navegação */
+  nav ul li {
+    margin-bottom: 10px;
+  }
+}
